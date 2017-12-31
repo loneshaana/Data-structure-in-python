@@ -17,7 +17,7 @@ def find_path(graph,start,end,path=[]):
 		return None
 
 
-#----------Drive Code---------
+#----------Driver Code---------
 graph={'A':['B','C'],'B':['E','D'],'C':['D','F'],'E':['F']}
 
 print find_path(graph,'A','D')
